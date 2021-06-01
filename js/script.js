@@ -15,7 +15,7 @@ $(document).ready(function(){
                 delay : 800,
                 success : function(data){
                     console.log(data.results[symbolo.toUpperCase()].name);
-                    $('#bqResultados').html("Razao Social: " + data.results[symbolo.toUpperCase()].name + ";<br> Valor de mercado: " + data.results[symbolo.toUpperCase()].price + ";<br> Variação do preço de mercado: " + data.results[symbolo.toUpperCase()].change_percent + "%" + ";<br>Descrição: " + data.results[symbolo.toUpperCase()].description + ";<br>Região: " + data.results[symbolo.toUpperCase()].region)
+                    $('#bqResultados').html("Razao Social: " + data.results[symbolo.toUpperCase()].name + ";<br> Valor de mercado: " + data.results[symbolo.toUpperCase()].price + ";<br> Variação do preço de mercado: " + data.results[symbolo.toUpperCase()].change_percent + "%" + ";<br>Região: " + data.results[symbolo.toUpperCase()].region)
                 },
             })
         }
