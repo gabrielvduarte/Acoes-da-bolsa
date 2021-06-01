@@ -1,0 +1,46 @@
+body {
+    background-image: url('../img/imagem-bolsa.png');
+    background-size: cover;
+}
+
+.form {
+    position: relative;
+    padding-left: 3%;
+    background-color: rgb(40 37 79 / 30%);
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 20%;
+    height: 60%;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 25px;
+    color: rgb(255 255 255);
+    font-size: x-large;
+    -webkit-text-stroke-width: 1px;
+    
+}
+
+#simbolo {
+    height: 20px;
+    width: 300px;
+    font-size: smaller;
+    margin-bottom: 10px;
+}
+
+#btnConfirmar {
+    border: 2px solid rgb(155, 155, 155);
+    background-color: #0f0e65;
+    font-size: unset;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: white;
+}
+
+#btnConfirmar:hover {
+    border: 2px solid rgb(155, 155, 155);
+    background-color: white;
+    font-size: unset;
+    font-weight: bolder;
+    border-radius: 10px;
+    color: #0501ff;
+}
